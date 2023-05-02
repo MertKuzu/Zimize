@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Abril Fatface');
+@import url('https://fonts.googleapis.com/css?family=Aguafina Script');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#headerName {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+#altHeader {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    font-family: 'Aguafina Script';
+    color: rgba(75, 75, 75, 0.712);
+}
+.navbar {
+    background-color: black;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 1px;
+}
+.navbarA {
+    color: white;
+    text-decoration: none;
+}
+.navbarA:hover {
+    color: grey;
+}
+.navbarLi {
+    display: inline;
+    margin: 30px;
+    padding: 20px;
+}
+.container {
+    width: 1200px;
+    margin: 5px auto;
+    columns: 1;
+    column-gap: 10px;
+    
+}
+.box {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    border-radius: 5%;
+}
+@media (min-width: 576px) {
+    .container {
+        width: 300px;
+        margin: 5px auto;
+        columns: 1;
+        column-gap: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 600px;
+        margin: 5px auto;
+        columns: 2;
+        column-gap: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 900px;
+        margin: 5px auto;
+        columns: 3;
+        column-gap: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 5px auto;
+        columns: 4;
+        column-gap: 10px;
+    }
+}
+
+.upload {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background:rgba(75, 75, 75, 0.3);
+    float: right;
+    margin: 10px;
+    padding: 25px 30px 25px 30px;
+}
+.uploadA {
+    color: black;
+    text-decoration: none;
+}
+.uploadA:hover {
+    color: white;
+}
+
+.form {
+    background-color: rgb(107, 106, 106);
+    border: 3px solid black;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 30px;
+    display: block;
+    width: 20%;
+
+}
+
+.label {
+    color:white;
+}
+
+.inputText {
+    border-radius: 5px;
+}
+
+#content {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.editA {
+    margin: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.editA:hover {
+    color: lightgray;
+}
+
+
